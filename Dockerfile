@@ -1,4 +1,4 @@
-From docker.prod.walmart.com/strati/zulu:17-jdk-alpine
+From openjdk:17.0.8.1
 ARG JAR_FILE=target/*.jar
 ARG org_name
 ARG file_name
