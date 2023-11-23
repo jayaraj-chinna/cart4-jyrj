@@ -1,4 +1,4 @@
-From openjdk:17.0.8.1
+FROM openjdk:17
 EXPOSE 80
 ADD target/cart4-jyrj.jar cart4-jyrj.jar
 ENTRYPOINT ["java",'"-jar","/cart4-jyrj.jar"]
