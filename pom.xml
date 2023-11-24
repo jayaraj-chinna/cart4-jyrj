@@ -101,7 +101,6 @@
 			</plugin>
 
 		</plugins>
-		<finalName>cart4-jyrj</finalName>
 	</build>
 	<profiles>
 		<profile>
